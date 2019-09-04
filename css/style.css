@@ -255,6 +255,7 @@ a.gplus:active { background-position: -80px -80px; }
 /********** Sections **********/
 
 section {
+  margin-bottom: 20px;
   padding: 20px;
   background: white;
 }
@@ -303,3 +304,7 @@ footer a {
 }
 
 /* code examples copyright Jonathan Grover 2012 */
+
+#details {
+  background: #ccc;
+}
