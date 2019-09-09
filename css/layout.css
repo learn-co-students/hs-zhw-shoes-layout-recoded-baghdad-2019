@@ -25,3 +25,27 @@
 /* Positioning Classes */
 
 
+.right-side-column{
+  float: right;
+  width: 32%;
+  
+
+  }
+.left-side-column{
+  float: left;
+  width: 66%;
+}
+
+.col-1{
+
+  margin-left: 2%;
+  margin-top: 2%;
+  float: left;
+  width: 32%;
+}
+
+.first{
+  margin-left: 0;
+}
+
+
