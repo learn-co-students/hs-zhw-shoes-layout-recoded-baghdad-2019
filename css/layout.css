@@ -29,6 +29,15 @@ img {
 
 /* Positioning Classes */
 
+section.left {
+  display: inline-block;
+  left: 0;
+  width: 32%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  background: #ccc;
+}
+
 .col-1 {
   float: left;
   width: 32%;
@@ -51,5 +60,16 @@ img {
 }
 
 div.first, section.first {
-  margin-left: 0%;
+  margin-left: 0;
 }
+
+/* div.flex {
+  display: flex;
+  flex-flow: row  wrap;
+  justify-content: center;
+} */
+
+/* div.flex section.shadow {
+  width: 32%;
+  margin-left: 2%;
+} */
