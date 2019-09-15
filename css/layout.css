@@ -1,9 +1,9 @@
 /********** Fixes **********/
 
 * {
-  margin:0;
-  padding:0;
-  border:0;
+  margin: 0;
+  padding: 0;
+  border: 0;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -24,4 +24,36 @@
 
 /* Positioning Classes */
 
+.footer-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
 
+.middle-shadow {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 2;
+  justify-content: space-around;
+  height: 100%;
+  background-color: rgba(240, 248, 255, 0);
+}
+
+.Deals {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.shadow1, .shadow2, .shadow3 {
+  margin: 2%;
+  height: 400px;
+  width: 400px;
+}
+
+.middle-shadow1, .middle-shadow2 {
+  margin: 2%;
+  width: 100%;
+}
