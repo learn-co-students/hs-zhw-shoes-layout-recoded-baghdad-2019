@@ -23,5 +23,22 @@
 }
 
 /* Positioning Classes */
+.right{
+  float: right;
+  height: 580px;
+  margin-bottom: 10px;
+  width: 30%;
+}
 
+.left{
+  float: left;
+  width: 66%;
+  height: 580px;
+  margin-bottom: 10px;
+}
+.inline{
+  display: inline-block;
+  width: 30%;
+  margin: 0 10px;
+}
 
